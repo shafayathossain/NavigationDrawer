@@ -10,4 +10,6 @@
     <string name="item5">All Mail</string>
     <string name="item6">Trash</string>
     <string name="item7">Spam</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
 </resources>
