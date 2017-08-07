@@ -9,12 +9,15 @@
     app:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:background="@drawable/header">
 
-    <ImageView
+    <com.mikhaellopez.circularimageview.CircularImageView
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:src="@drawable/blank"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/profile"/>
+        app:civ_border_color="#eeeeee"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"/>
 
     <TextView
         android:layout_width="wrap_content"
